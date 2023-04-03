@@ -27,6 +27,7 @@ let createNewUser = async (data) => {
     })
 }
 
+// de sd funcition hashUserPassword can import bcrypt from 'bcryptjs';
 let hashUserPassword = (password) => {
     return new Promise(async (resolve, reject) => {
         try {
